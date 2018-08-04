@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:orientation="vertical"
+android:background="@color/colorAccent"
+tools:context="com.example.android.musicalstruct.MainActivity">
+
+<TextView
+    android:id="@+id/songs"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CategoryStyle"
+    android:background="@color/colorCategories"
+    android:text="Songs" />
+
+<TextView
+    android:id="@+id/albums"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CategoryStyle"
+    android:background="@color/colorCategories"
+    android:text="Albums" />
+
+<TextView
+    android:id="@+id/artists"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CategoryStyle"
+    android:background="@color/colorCategories"
+    android:text="Artists" />
+
+<TextView
+    android:id="@+id/now_playing"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    style="@style/CategoryStyle"
+    android:background="@color/colorCategories"
+    android:text="Now Playing" />
+
+</LinearLayout>
